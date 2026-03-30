@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # TensorFlow_vs_TensorFlow-Lite
 Una aplicación de detección de objetos en tiempo real diseñada para comparar el rendimiento entre modelos regulares de **TensorFlow** y modelos optimizados con **TensorFlow Lite**.   El proyecto proporciona una interfaz visual (HUD) con métricas de rendimiento en vivo como FPS, tiempo de inferencia y consumo de memoria. 
 =======
@@ -39,7 +38,7 @@ El proyecto está diseñado para funcionar directamente desde su menú interacti
    ```
 
 El script `run.sh` se encarga de todo el proceso de arranque:
-- Crea un entorno virtual (`venv/`) de forma aislada.
+- Crea un entorno virtual (`venv/`).
 - Instala todas las librerías necesarias especificadas en `requirements.txt`.
 - Descarga automáticamente los modelos `.pb` (TensorFlow) y `.tflite` (TensorFlow Lite) a la carpeta `models/\`.
 - Proporciona un menú en la terminal para elegir qué modo ejecutar y qué cámara utilizar.
@@ -54,4 +53,3 @@ El script `run.sh` se encarga de todo el proceso de arranque:
   - `camera_utils.py`: Auxiliar para listar cámaras conectadas.
   - `utils.py`: Funciones para dibujar cajas de detección (bounding boxes) y la interfaz gráfica HUD.
 - `requirements.txt`: Dependencias de Python (TensorFlow, OpenCV, psutil, etc.).
->>>>>>> 72e29fd (Proyecto completo)
