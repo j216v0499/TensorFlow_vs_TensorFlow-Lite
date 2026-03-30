@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Node rules:
 ## Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
@@ -14,3 +15,22 @@ _book
 *.epub
 *.mobi
 *.pdf
+=======
+# Entornos virtuales Python
+venv/
+env/
+.env
+
+# Caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Modelos descargados e imágenes de prueba grandes
+models/
+test_images/
+
+# Archivos de SO
+.DS_Store
+Thumbs.db
+>>>>>>> 72e29fd (Proyecto completo)

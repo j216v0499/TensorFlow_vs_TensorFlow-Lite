@@ -1,0 +1,6 @@
+tensorflow==2.15.0
+opencv-python==4.9.0.80
+psutil==5.9.8
+requests==2.31.0
+tflite-support==0.4.4
+protobuf==3.20.3
